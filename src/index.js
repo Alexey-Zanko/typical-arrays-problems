@@ -1,6 +1,6 @@
 exports.min = function min (array) {
   let min = 0;
-  if (array.length > 0 ){
+  if (array !== undefined){
     for (let i = 0; i < array.length; i++){
       if (min > array[i]) {
         min = array[i];
